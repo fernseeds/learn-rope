@@ -1,6 +1,6 @@
 ---
 title:  Resources
-date:  2017-01-29
+date:  2017-01-01
 layout: post
 ---
 
