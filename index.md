@@ -1,14 +1,10 @@
 ---
 layout: default
 ---
-
-# Tips for learning rope online
-
-## 2nd level heading
-
-Some text
-
-## Another 2nd level
-
-Some more text
-
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h1>
+    </li>
+  {% endfor %}
+</ul>
